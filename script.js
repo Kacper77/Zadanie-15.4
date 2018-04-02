@@ -1,7 +1,7 @@
 /* 1 */
 
-let a = 'Hello',
-    b = 'World';
+let a = 'Hello';
+b = 'World';
 let wynik = `${a} ${b}`;
 
 console.log(wynik);
@@ -16,8 +16,7 @@ console.log(multiply(5));
 
 /* 3 */
 
-
-
+const average = (...args) => args.reduce((a, b) => a + b) / args.length;
 
 /* 4 */
 
